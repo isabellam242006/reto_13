@@ -66,8 +66,6 @@ print(f"La velocidad del viento es {data.get('velViento', {}).get('2')}")
 print(f"La dirección del viento es {data.get('dirViento', {}).get('2')}")
 print(f"La ráfaga del viento es {data.get('wind_gust',{}).get('2')}")
 
-
-'''
 data = json.loads(jsonString)
 ```
 5. A través de un programa conectese a al menos 3 API's , obtenga el JSON, imprimalo y extraiga los pares de llave : valor.
